@@ -4,5 +4,9 @@ fun calculate(int1: Int, int2: Int): Int {
 
 fun main(){
     var result: Int = calculate( 2,5)
-    print(result)
+    println(result)
+
+    result += 10
+    println(result)
+
 }
